@@ -17,5 +17,6 @@ public class NewTest {
 	  driver.findElement(By.name("password")).sendKeys("tutorial");
 	  driver.findElement(By.name("login")).click();*/
 	  System.out.println("Test passed");
+	  System.out.println("Test passed");
   }
 }
