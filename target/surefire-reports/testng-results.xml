@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="13787" started-at="2017-07-02T04:33:29Z" finished-at="2017-07-02T04:33:43Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="13787" started-at="2017-07-02T04:33:29Z" finished-at="2017-07-02T04:33:43Z">
+      <class name="example.Test3">
+        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:example.Test3@380fb434]" name="doLogin" duration-ms="10" started-at="2017-07-02T10:03:29Z" data-provider="getData" finished-at="2017-07-02T10:03:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:example.Test3@380fb434]" name="doLogin" duration-ms="5" started-at="2017-07-02T10:03:29Z" data-provider="getData" finished-at="2017-07-02T10:03:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:example.Test3@380fb434]" name="doLogin" duration-ms="0" started-at="2017-07-02T10:03:29Z" data-provider="getData" finished-at="2017-07-02T10:03:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+      </class> <!-- example.Test3 -->
+      <class name="example.NewTest">
+        <test-method status="PASS" signature="f()[pri:0, instance:example.NewTest@2ed94a8b]" name="f" duration-ms="13741" started-at="2017-07-02T10:03:29Z" finished-at="2017-07-02T10:03:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- example.NewTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
